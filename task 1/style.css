@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    background:black;
+    color:white;
+}
+
+ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+.hero{
+    text-align:center;
+    padding:100px;
+}
+
+button{
+    padding:10px 20px;
+}
+.about,
+.services,
+.contact {
+    text-align: center;
+    padding: 60px;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+@media(max-width:768px){
+
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    ul{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .hero{
+        padding: 50px 20px;
+    }
+}
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: lightgray;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkblue;
+}
+html {
+    scroll-behavior: smooth;
+}
